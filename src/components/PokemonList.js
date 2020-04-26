@@ -26,7 +26,7 @@ const PokemonsList = () => {
             <div key={`${pokemon.id}-${pokemon.name}`}>
                 <div>
                     <span>{pokemon.name}</span>
-                    <button onclick={capture(pokemon)}>+</button>
+                    <button onClick={capture(pokemon)}>+</button>
                 </div>
 
                 
